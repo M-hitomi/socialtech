@@ -339,8 +339,10 @@ h3 {
   margin: 80px auto 80px auto;
 }
 #contact > form > div {
-  flex-direction: column;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 /* 左列の見出し */
 .contact-heading {
